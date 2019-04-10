@@ -1,0 +1,19 @@
+{
+  "name": "tiquiz-back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/htmlandreza/tiquiz-back-end.git",
+  "author": "Andreza Moreira <htmlandreza@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
